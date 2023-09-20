@@ -1,0 +1,90 @@
+@charset "UTF-8";
+/* CSS Document */
+@media screen and (max-width:4000px){
+
+
+*{
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "ヒラギノ角ゴシック";
+	background-color: black;
+	color: white;
+	width:100%;
+	max-width: 2000px;
+	min-width: 1000px;
+	height: auto;
+	margin:0;
+}
+
+
+
+
+/*ヘッダー*/
+header {
+	width:100%;
+	max-width: 2000px;
+	min-width: 1000px;
+	height: 6rem;
+	display: flex;
+	justify-content: space-between;
+	position: fixed;
+	background-color:black;
+	z-index: 1;
+	margin: 0;
+}
+
+	
+#title-logo img {
+	display: block;
+	width: 15rem;
+	height: auto;
+}
+
+#sp-icon img{
+ display: none;
+	
+	}
+
+ul {
+	display:flex;
+    list-style: none;
+	text-align: right;
+    text-decoration: none;
+	color: white;
+	
+}
+
+li {
+	padding: 1em;
+	margin: 0 auto;
+	color: white;
+}
+
+li :hover {
+	background-color: aliceblue;	
+	}	
+
+ruby {
+	ruby-position:under;
+	
+ }
+
+#portfolio-nagoya-page {
+		width: 100%;
+	}
+
+	
+.portfolio-container img {
+		width:100%;
+	    margin-top:3em;
+	}
+
+.portfolio-container p {
+	font-size: 1vw;
+	text-align: center;
+}
+
+
+}

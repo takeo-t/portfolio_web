@@ -1,0 +1,324 @@
+@charset "UTF-8";
+/* CSS Document */
+@media screen and (max-width:4000px){
+
+
+*{
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "ヒラギノ角ゴシック";
+	background-color: black;
+	color: white;
+	width:100%;
+	max-width: 2000px;
+	min-width: 1000px;
+	height: auto;
+	margin: 0;
+}
+
+
+/*ヘッダー*/
+header {
+	width:100%;
+	max-width: 2000px;
+	min-width: 1000px;
+	height: 6rem;
+	display: flex;
+	justify-content: space-between;
+	position: fixed;
+	background-color:black;
+	z-index: 1;
+	margin: 0;
+}
+
+	
+#title-logo img {
+	display: block;
+	width: 15rem;
+	height: auto;
+}
+
+#sp-icon img{
+ display: none;
+	
+	}
+
+ul {
+	display:flex;
+    list-style: none;
+	text-align: right;
+    text-decoration: none;
+	color: white;
+	
+}
+
+li {
+	padding: 1em;
+	margin: 0 auto;
+	color: white;
+}
+
+li :hover {
+	background-color: aliceblue;	
+	}	
+
+ruby {
+	ruby-position:under;
+}
+
+/*メインページ*/
+#main-wrapper {
+	width:100%;
+	height: auto;
+	margin: 0;
+}
+
+#main-wrapper img {
+	width:100%;
+	height: auto;
+	margin-top: 6rem;
+}
+
+#main-pic {
+	width:100%;
+	position: relative;
+}
+
+#main-pic-sp {
+    display: none;		
+}
+
+/*プロフィール*/
+#about-title {
+	text-align: center;
+	padding-top: 8rem;
+	padding-bottom: 1rem;
+	border-bottom: solid 1px;
+}
+
+
+.about-wrapper {
+	width: 100%;
+	height: auto;
+	
+}
+
+.about-container{
+	display: flex;
+	
+	
+}
+.about-pic-container{
+	width:70%;
+}
+
+.about-pic {
+	display: block;
+	width: 80%;
+	height: auto;
+	float: right;
+	padding: 10%;
+	
+}
+
+.about-intoroduction {
+	width: 50%;
+    float:right;
+	padding: 10%;
+	margin: 1rem;
+}
+
+/*ポートフォリオ*/
+#portfolio-title {
+	text-align: center;
+	padding-top: 8rem;
+	padding-bottom: 1rem;
+	border-bottom: solid 1px;
+}
+
+
+.portfolio-wrapper {
+	width:100%;
+	height:　auto;
+}
+
+.portfolio-container {
+	display: grid;
+	grid-template-rows: 50% 50%;
+	grid-template-columns: 50% 50%;
+	width: 100%;
+	margin-bottom: 0;
+	margin-top: 0;
+	gap:5px 5px;
+}
+
+
+	
+.portfolio-pic {
+	width: 100%;
+	
+}
+	
+	.portfolio-pic-sp {
+		display: none;
+	}
+/*ポートフォリオ-名古屋*/
+#portfolio-nagoya {
+	position: relative;
+}
+
+
+.portfolio-title-nagoya {
+   position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  margin: auto;
+   padding: 3% 10%;
+   border: solid 1px;
+   font-size:150%;
+   color: white;
+}
+
+.portfolio-more-nagoya {
+	position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translateY(-70%) translateX(-50%);
+  margin: auto;
+   padding: 1% 10%;
+	border-bottom: solid 1px;
+	color: white;
+}
+.portfolio-more-nagoya:hover {
+		background-color:aqua;
+	    color: white;
+		opacity: 0.7;
+	}
+
+
+/*ポートフォリオ-栄*/
+.portfolio-sakae {
+	position: relative;
+}
+
+.portfolio-title-sakae {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translateY(-50%) translateX(-50%);
+   margin: auto;
+   padding: 3% 10%;
+   border: solid 1px;
+   font-size:150%;
+   color: white;
+}
+
+.portfolio-more-sakae {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translateY(-70%) translateX(-50%);
+  margin: auto;
+  padding: 1% 10%;
+  border-bottom: solid 1px;
+  color: white;
+}
+
+.portfolio-more-sakae:hover {
+		background-color:aqua;
+	    color: white;
+		opacity: 0.7;
+	}
+
+/*ポートフォリオ-笹島*/
+.portfolio-sasashima {
+	position: relative;
+}
+
+.portfolio-title-sasashima {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translateY(-50%) translateX(-50%);
+   margin: auto;
+   padding: 3% 10%;
+   border: solid 1px;
+   font-size:150%;
+   color: white;
+}
+
+.portfolio-more-sasashima {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translateY(-70%) translateX(-50%);
+  margin: auto;
+  padding: 1% 10%;
+  border-bottom: solid 1px;
+  color: white;
+}
+
+.portfolio-more-sasashima:hover {
+		background-color:aqua;
+	    color: white;
+		opacity: 0.7;		
+	}
+/*ポートフォリオ-スナップ*/
+.portfolio-landscape {
+	position: relative;
+}
+
+.portfolio-title-landscape {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translateY(-50%) translateX(-50%);
+   margin: auto;
+   padding: 3% 10%;
+   border: solid 1px;
+   font-size:150%;
+   color: white;
+}
+
+.portfolio-more-landscape {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translateY(-70%) translateX(-50%);
+  margin: auto;
+  padding: 1% 10%;
+  border-bottom: solid 1px;
+  color: white;
+}
+.portfolio-more-landscape:hover {
+		background-color:aqua;
+	    color: white;
+		opacity: 0.7;
+	}
+
+/*コンタクト*/
+#contact-title {
+	text-align: center;
+	padding-top: 8rem;
+	padding-bottom: 1rem;
+	border-bottom: solid 1px;
+}
+
+
+
+.contact-wrapper {
+	width:100%;
+	height: auto;
+	margin: 0;
+}
+
+	.contact-container p {
+		margin-top: 5%;
+	    margin-left: 10%
+	}
+
+
+}
